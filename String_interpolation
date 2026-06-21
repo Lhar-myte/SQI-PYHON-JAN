@@ -1,0 +1,41 @@
+name = "rebecca"
+age = 45
+height = 6.5
+is_male = False
+# print("My name is " + name + ", I am " + str(age) + "years old" + "\nI am " + str(height) + "feet tall. " + "It is " + str(is_male) + " that i am a Male" )
+
+print(f"My name is {name}, I am {age} years old. I am {height} feet tall. It is {is_male} that i am a male")
+text = "My name is {}, I am {} years old. I am {} feet tall. It is {} that i am a male".format(name,age,height,is_male)
+print(text)
+
+htp= "https://google.com"
+domain_name = "google"
+print(f"https://{domain_name}.com")
+
+adjective = "handsome"
+noun = "olamide"
+verb = "play"
+print(f"The {adjective} {noun} likes to {verb} football")
+text = "The {} {} likes to {} football".format(adjective,noun,verb)
+print(text)
+print("rebecca".capitalize())
+
+full_name = "ola bami"
+print(full_name.capitalize())
+print(full_name.title())
+
+full_name = "ola bami"
+print(full_name.count("a"))
+
+print("hello world".count("o"))
+print(full_name.startswith("ol"))
+
+full_name = "ola bami".split(" ")
+print(full_name)
+
+
+names = ("ola","heritage","timi")
+second_indiv = names[1]
+g_from_heri = second_indiv[-2]
+print(g_from_heri)
+
